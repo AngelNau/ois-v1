@@ -12,4 +12,9 @@ public class Gravitacija{
         double a = c*m/Math.pow(r+nd,2);
         return a;
     }
+
+    public static void izpis(double nd, double a){
+        System.out.println(nd);
+        System.out.println(a);
+    }
 }
